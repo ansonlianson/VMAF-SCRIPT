@@ -20,7 +20,11 @@ chmod +x /Users/anson/Downloads/VMAF脚本/macOS\ run\ VMAF.sh
 再将"macOS run VMAF.sh"拖入一次，回车运行
 按照提示操作即可
 
-**命令行运行：**
+
+
+
+
+## **命令行运行：**
 
 Windows用户：
 
@@ -34,6 +38,11 @@ Mac用户：
 ./ffmpeg -i 转码后.mp4 -i 原视频.mp4 -lavfi libvmaf=model=version=vmaf_4k_v0.6.1:log_fmt=json:log_path=output.json -f null -
 ```
 
-**批量运行：**
+
+
+
+
+## **批量运行：**
+
 可参考以下软件
 https://github.com/fifonik/FFMetrics
