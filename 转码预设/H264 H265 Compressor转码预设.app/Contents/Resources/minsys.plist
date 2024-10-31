@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AELMinimumOSVersion</key>
+	<dict>
+		<key>block</key>
+		<string>10.5.6</string>
+	</dict>
+	<key>AELMinimumOpenGLExtensions</key>
+	<dict>
+		<key>warn</key>
+		<string>GL_ARB_fragment_program</string>
+	</dict>
+	<key>AELMinimumQuartzExtremeCapable</key>
+	<dict>
+		<key>block</key>
+		<string>YES</string>
+	</dict>
+	<key>AELMinimumQuickTimeVersion</key>
+	<dict>
+		<key>block</key>
+		<string>7.6</string>
+	</dict>
+	<key>AELMinimumRAMSize</key>
+	<dict>
+		<key>block</key>
+		<string>512</string>
+		<key>warn</key>
+		<string>1024</string>
+	</dict>
+	<key>AELMinimumScreenRes</key>
+	<dict>
+		<key>warn</key>
+		<string>1024x768</string>
+	</dict>
+	<key>AELMinimumVRAM</key>
+	<dict>
+		<key>warn</key>
+		<string>64</string>
+	</dict>
+	<key>AELPlatform_PPC</key>
+	<dict>
+		<key>AELMinimumCPUSpeedSMP</key>
+		<dict>
+			<key>block</key>
+			<string>500</string>
+			<key>warn</key>
+			<string>1250</string>
+		</dict>
+		<key>AELMinimumCPUSpeedSingle</key>
+		<dict>
+			<key>block</key>
+			<string>500</string>
+			<key>warn</key>
+			<string>1250</string>
+		</dict>
+		<key>AELRequiredCPUType</key>
+		<dict>
+			<key>block</key>
+			<string>G4</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

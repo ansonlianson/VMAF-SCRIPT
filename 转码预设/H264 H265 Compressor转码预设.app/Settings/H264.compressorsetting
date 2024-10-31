@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<setting name="H264">
+    <version>409600</version>
+    <description>MPEG-4</description>
+    <default-destination/>
+    <encoder name="MPEG4">
+        <audio-video-encode isEnabled="no"/>
+        <file-extension>mp4</file-extension>
+        <job-can-be-segmented>yes</job-can-be-segmented>
+        <duration-change factor="100" new-duration="" source-at-output="no"/>
+        <marker-image width="0" height="0"/>
+        <encode-cc>yes</encode-cc>
+        <encode-chapters>yes</encode-chapters>
+        <include-hidden-metadata>yes</include-hidden-metadata>
+        <metadata-options>1</metadata-options>
+        <audio-encode name="MPEG4" isEnabled="yes">
+            <auto-channel_layout>yes</auto-channel_layout>
+            <auto-channel_sampleSize>no</auto-channel_sampleSize>
+            <auto-format_sampleRate>yes</auto-format_sampleRate>
+            <audio-format-info>48000.000000 2 16 48000 N 6619138 Y</audio-format-info>
+            <codec-type>aac </codec-type>
+            <quality>96</quality>
+            <audio-encoding-strategy>1</audio-encoding-strategy>
+            <audio-encoding-bitrate>128000</audio-encoding-bitrate>
+        </audio-encode>
+        <video-encode name="MPEG4" isEnabled="yes">
+            <bounds width="-100" height="-100" pixelAspect="0"/>
+            <crop left="0" top="0" right="0" bottom="0"/>
+            <padding left="0" top="0" right="0" bottom="0"/>
+            <frame-rate>-100.000000</frame-rate>
+            <automatic video-conversion="" color-spec="" width="-100" height="-100" frame-rate="-100" crop="no" auto-pad="0" center-crop="0" field-dominance="no"/>
+            <video-conversion>1 3 1 0 N 0 1 0 0 0</video-conversion>
+            <color-spec>0</color-spec>
+            <computed-pad>no</computed-pad>
+            <computed-crop>no</computed-crop>
+            <rotation>0</rotation>
+            <flip>0</flip>
+            <color-space primaries="2" transfer="2" matrix="2"/>
+            <color-spec-default>-1000</color-spec-default>
+            <raw-to-log>0</raw-to-log>
+            <camera-lut>0</camera-lut>
+            <camera-lut-color>-1000</camera-lut-color>
+            <camera-log-default>-1000</camera-log-default>
+            <ignore-crop-during-processing>no</ignore-crop-during-processing>
+            <dithering-setting>0</dithering-setting>
+            <embedded_dovis_format>0</embedded_dovis_format>
+            <purpose-group/>
+            <codec-type>avc1</codec-type>
+            <family-codec-configured>no</family-codec-configured>
+            <spatial pixelDepth="24" minQuality="768" quality="768"/>
+            <temporal keyFrameInterval="0" minQuality="768" quality="768" partial-sync="0"/>
+            <icm2-options max-passes="1" allow-frame-reoder="yes"/>
+            <data-rate>2500000</data-rate>
+            <data-rate-limit-percentage>0</data-rate-limit-percentage>
+            <data-rate-limit-duration>0</data-rate-limit-duration>
+            <encoder-properties><![CDATA[YnBsaXN0MDDSAQIDEV8QEGNvZGVjLXByb3BlcnRpZXNaZW5jb2Rlci1pZNIEBQYNXxAPSDI2NEVudHJvcHlNb2RlXFByb2ZpbGVMZXZlbNMHCAkKCwxbb2JqZWN0VmFsdWVbaXNEZWZhdWx0SFFbZGVzY3JpcHRpb25VQ0FWTEMJVUNBVkxD0wcICQ4LEF8QE0gyNjRfTWFpbl9BdXRvTGV2ZWwJY047epdT41RhdmMxCA0gKzBCT1ZibnqAgYeOpKWsAAAAAAAAAQEAAAAAAAAAEgAAAAAAAAAAAAAAAAAAALE=]]></encoder-properties>
+            <video-360-metadata-format>0</video-360-metadata-format>
+            <video-360-metadata-auto>yes</video-360-metadata-auto>
+            <encoder-variant>0</encoder-variant>
+            <alpha-quality>1</alpha-quality>
+            <bit-rate-mode>0</bit-rate-mode>
+        </video-encode>
+        <hinting hinting-type="2" packet-type="1450" packet-duration="100"/>
+        <allow-podcast-data>no</allow-podcast-data>
+    </encoder>
+    <filter-set/>
+</setting>

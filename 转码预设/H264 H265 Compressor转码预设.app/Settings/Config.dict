@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HasLoadedInitialSettings</key>
+	<true/>
+	<key>ServerAddress</key>
+	<string>tcp://127.0.0.1:49218</string>
+	<key>ServerHostName</key>
+	<string>AsgoreDreemurr的MacBook Pro</string>
+	<key>ServerName</key>
+	<string>本电脑</string>
+	<key>ServerUniqueID</key>
+	<string>E0F83A02-D375-4A71-982A-C740E3A9C539</string>
+	<key>ShouldShowUI</key>
+	<true/>
+</dict>
+</plist>
