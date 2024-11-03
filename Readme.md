@@ -63,4 +63,4 @@ VMAF现在仅可应用于SDR片源，HDR片源得分会有问题。
 
 ## 引用
 
-[Netflix/vmaf: Perceptual video quality assessment based on multi-method fusion. (github.com)](https://github.com/Netflix/vmaf)
+[Netflix/vmaf](https://github.com/Netflix/vmaf)
