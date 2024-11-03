@@ -46,3 +46,21 @@ Mac用户：
 
 可参考以下软件
 https://github.com/fifonik/FFMetrics
+
+
+
+## ⚠️注意
+
+VMAF现在仅可应用于SDR片源，HDR片源得分会有问题。
+
+提供的命令行和脚本运行都是以4K片源为目标作为比较，如果你需要对比1080P片源，需要将对应命令更换为
+
+```
+-lavfi libvmaf=log_fmt=json:log_path=output.json -f null -
+```
+
+
+
+## 引用
+
+[Netflix/vmaf: Perceptual video quality assessment based on multi-method fusion. (github.com)](https://github.com/Netflix/vmaf)
