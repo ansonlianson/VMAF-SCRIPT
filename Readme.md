@@ -1,3 +1,9 @@
+# 原视频
+
+【Mac视频画面碎裂？一年测试 一份大活】 https://www.bilibili.com/video/BV17rSJYnEa3
+
+
+
 ## 脚本运行:
 
 Windows用户：
